@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;400;600&display=swap');
+
+*{
+    font-family: 'Courier', sans-serif;
+    font-weight: 700;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    padding: 15px;
+    width: 100%;
+    background: #202020;
+    border-radius: 2px;
+    border-color: ghostwhite;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#header #logo{
+    color: whitesmoke;
+    font-style:italic;
+    font-size: 25px;
+}
+
+#header #logo span{
+    color: rgb(211, 17, 17);
+}
+
+#header nav{
+    color:whitesmoke
+}
+
+#header nav a{
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+#header nav a:last-child{
+    color: black;
+    background: white;
+    padding: 10px 20px;
+    margin-left: 30px;
+    border-radius: 30px;
+
+}
+
+#container{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 0px;
+    height: 560px;
+}
+
+#image{
+    width: 40%;
+}
+
+#image img{
+    position: relative;
+    width: 85%;
+    height: 100%;
+}
+
+#content-container{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#content-container h1{
+    color: black;
+    font-weight: 750;
+    font-size: 90px;
+    line-height: 0.9em;
+    margin-bottom: 30px;
+}
+
+#content-container p{
+    line-height: 1.8em;
+    font-weight: 500;
+}
+
+#content-container button{
+    border: none;
+    outline: none;
+    color: #cf2727;
+    background-color: black;
+    padding: 16px 0px;
+    border-radius: 40px;
+    font-size: 16px;
+    width: 200px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#content-container button:hover{
+    opacity: 0.9;
+}
+
+.section-container{
+    height: 58vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-section{
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-two{
+    background-image: url(../images/black_friday_belt.png);
+}
+
+.card-container{
+    background: var(black);
+    border-radius: 50px;
+    padding: 25px;
+    max-width: 1100px;
+    display: grid;
+    color: red;
+    font-weight: 10;
+    font-size: 20px;
+}
+
+input{
+    width: 250px;
+    height: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-radius: 15px;
+    background: white;
+    color: #000;
+
+}
+
+form{
+    display: grid;
+}
+
+footer{
+    height: 140px;
+    padding: 25px;
+    text-align: center;
+    background-color: #1C1C1C;
+    color: #c0c0c0;
+   
+
+}
